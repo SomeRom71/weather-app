@@ -1,0 +1,20 @@
+.searchForm, .weather{
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.not-found{
+  text-align: center;
+  &__img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.city-list{
+  height: 0px;
+  overflow-y: scroll;
+  transition: height .5s ease;
+}
