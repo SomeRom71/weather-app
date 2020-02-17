@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.scss';
+import './scss/App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SearchForm from './components/SearchForm';
 import Weather from './components/Weather';
